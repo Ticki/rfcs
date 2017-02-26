@@ -23,7 +23,7 @@ axioms, defining a simple, constructive logic.
 
 In the future, we might like to extend it to a fully dependent type system.
 While this is, by definition, a dependent type system, one could extend it to
-allow runtime defind value parameters.
+allow runtime defined value parameters.
 
 Consider the `index` example. If one wants to index with a runtime defined
 integer, the compiler have to be able to show that this value does, in fact,
