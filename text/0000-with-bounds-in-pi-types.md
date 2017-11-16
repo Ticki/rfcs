@@ -42,7 +42,7 @@ pub struct BoundedInt<const lower: usize, const upper: usize> {
     /// Note how this is not public. This is because we cannot, in the updated
     /// version of the RFC, set constraints on compile time, so when created it
     /// must either be dynamically ensured or an unsafe contract must be made
-    in order to satisfy the invariants.
+    /// in order to satisfy the invariants.
     n: usize,
 }
 
